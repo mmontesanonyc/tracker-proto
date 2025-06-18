@@ -13,7 +13,7 @@ import "../src/styles/mobile.css"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tracker-proto">
       <TopBar />
       <Header />
       <main className="flex-grow">
