@@ -1,0 +1,172 @@
+ {
+   "nav": {
+    "home": "Home",
+    "data": "Data",
+    "info": "Info",
+    "externalTool": "Health Tool"
+  },
+
+  "overviewBottomNav": {
+    "emergencyDept": {
+      "title": "Emergency Department Visits & Hospitalizations",
+      "description": "Explore emergency department trends across boroughs."
+    },
+    "github": {
+      "title": "Explore our Github Repository",
+      "description": "Visit our Github repo to get code, file an issue, or download data"
+    },
+    "wastewater": {
+      "title": "COVID-19 Wastewater Surveillance",
+      "description": "View NYC COVID-19 wastewater surveillance through the New York State dashboard"
+    }
+  },  
+
+
+    "overview": {
+      "title": "Acute Respiratory Infections Overview",
+      "subtitle": "Explore Acute Respiratory Virus data in NYC",
+      "indicators": {
+        "title": "Emergency Department Trends"
+      },
+      "charts": {
+        "monthlyARIChart": {
+          "title": "Acute Respiratory Infection Overview",
+          "subtitle": "{viewLabel} for the week of {date} have {trend} since the previous week"
+        }
+      },
+      "statCards": {
+        "ari": { "title": "Acute Respiratory Infections" },
+        "covid": { "title": "COVID-19" },
+        "flu": { "title": "Influenza" },
+        "rsv": { "title": "RSV" }
+      },
+      "summaryBox": {
+        "title": "Emergency Department Trends",
+        "description": "This summary highlights recent patterns in ED visits and hospitalizations related to respiratory viruses across NYC. Use the toggles and filters above to explore further."
+      }
+    },
+  
+  "emergencyDeptPage": {
+      "mainTitle": "Emergency Department Visits & Hospitalizations",
+      "mainSubtitle": "Trends and characteristics of Emergency Department use for COVID-19, influenza, and RSV",
+   
+
+      "summarySection": {
+        "summaryTitle": "Emergency Department Summary"
+      },
+      "charts": {
+        "seasonalEdVisits": {
+          "title": "<span style='font-weight:bold'>Emergency Department {viewLabel}</span> for <span style='font-weight:bold'>{virus}</span>",
+          "subtitle": "{viewLabel} for the week of {date} have {trend} since the previous week."
+        },
+        "percentEdVisitsByAge": {
+          "title": "<span style='font-weight:bold'>Emergency Department {viewLabel}</span> for <span style='font-weight:bold'>{virus}</span>, by Age Group",
+          "subtitle": "{viewLabel} for the week of {date} have {trend} since the previous week for {group}"
+        },
+        "percentEdVisitsByGeo": {
+          "title": "<span style='font-weight:bold'>Emergency Department {viewLabel}</span> for <span style='font-weight:bold'>{virus}</span>, by Borough",
+          "subtitle": "{viewLabel} for the week of {date} have {trend} since the previous week for {group}"
+        }
+
+      }
+    },
+    "caseDataPage": {
+      "mainTitle": "Laboratory-Reported Cases",
+      "mainSubtitle": "Trends and characteristics of COVID-19, influenza, and RSV laboratory reports",
+   
+
+      "summarySection": {
+        "summaryTitle": "Case Data Summary"
+      },
+
+      "charts": {
+        "seasonalComparison": {
+          "title": "{virus} Laboratory-Reported Cases by Season",
+          "subtitle": "Reports for the week of {date} have {trend} since the previous week"
+          
+        },
+        "reportsByTestType": {
+          "title": "{virus} Laboratory-Reported Cases by Test Type",
+          "subtitle": ""
+        },
+        "reportsBySubtype": {
+          "title": "{virus} Laboratory-Reported Cases by SubType",
+          "subtitle": ""
+
+        },
+        "reportsByAge": {
+          "title": "{virus} Laboratory-Reported Cases by Age Group",
+          "subtitle": ""
+        },
+        "reportsByBorough": {
+          "title": "{virus} Laboratory-Reported Cases by Borough",
+          "subtitle": ""
+        },
+        "reportsByRE": {
+          "title": "{virus} Laboratory-Reported Cases by Race and Ethnicity",
+          "subtitle": ""
+        }
+        
+
+      }
+    },
+    "CovidDeathPage": {
+      "mainTitle": "COVID-19 Death Surveillance",
+      "mainSubtitle": "Trends and characteristics of COVID-19 deaths",
+   
+
+      "summarySection": {
+        "summaryTitle": "Case Data Summary"
+      },
+
+      "charts": {
+        "seasonalComparison": {
+          "title": "COVID-19 Deaths by Season",
+          "subtitle": "Deaths for the week of {date} have {trend} since the previous week"
+          
+        },
+        "deathsByAge": {
+          "title": "COVID-19 Deaths by Age Group",
+          "subtitle": "Emergency department visits for {virus} are {trend} this week than the same week last season"
+        },
+        "deathsByBorough": {
+          "title": "COVID-19 Deaths by Borough",
+          "subtitle": "Emergency department visits for {virus} are {trend} this week than the same week last season"
+        },
+        "deathsByRE": {
+          "title": "COVID-19 Deaths by Race and Ethnicity",
+          "subtitle": "Emergency department visits for {virus} are {trend} this week than the same week last season"
+        }
+        
+
+      }
+    },
+
+    "aboutPage": {
+        "mainTitle": "About the Respiratory Virus Tracker",
+        "mainSubtitle": "Learn about respiratory illnesses and how to use this site",
+        "summary": {
+          "title": "About This Project"
+        },
+        "sections": {
+          "learn": { "title": "Learn about Respiratory Illnesses" },
+          "aboutTracker": { "title": "About the Tracker" },
+          "prevention": { "title": "Prevention and Vaccination Information" },
+          "providers": { "title": "Information for Providers" },
+          "seasonality": { "title": "Respiratory Virus Seasonality" },
+          "transparency": { "title": "Data Transparency" }
+        },
+        "cards": {
+          "covid": { "title": "COVID-19" },
+          "flu": { "title": "Influenza" },
+          "rsv": { "title": "RSV" },
+          "covidProvider": { "title": "COVID-19" },
+          "fluProvider": { "title": "Influenza" },
+          "rsvProvider": { "title": "RSV" }
+        }
+      }
+      
+    
+    
+}
+  
