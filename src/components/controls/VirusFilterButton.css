@@ -1,0 +1,59 @@
+.filter-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 9999px;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  text-align: center;
+}
+
+.filter-button:hover {
+  background-color: #e5e7eb;
+}
+
+.filter-button.active {
+  background-color: #111827;
+  color: white;
+}
+
+.filter-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+
+@media (max-width: 640px) {
+  .filter-button {
+    font-size: var(--font-size-xs);
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    max-width: 100%; 
+    padding: 10px 0px;
+    gap: 0px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .filter-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+  }
+}
+
